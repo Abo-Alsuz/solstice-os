@@ -1,4 +1,4 @@
-<img width="373" height="148" alt="solstice2" src="https://github.com/user-attachments/assets/6391135a-34c1-493b-adc9-7b2d05df62dc" />
+<img width="500" height="200" alt="solstice2" src="https://github.com/user-attachments/assets/6391135a-34c1-493b-adc9-7b2d05df62dc" />
 
 # solstice os
 
