@@ -47,3 +47,8 @@ want to build solstice?
 big thanks to:
 - **claude** — helped me think through the whole thing, the vision, the architecture, all of it
 - **linux from scratch** — that book is insane, literally teaches you how to build a distro from nothing
+
+## other files
+- [ROADMAP.MD](ROADMAP.md)
+- [MASTERPLAN.MD](MASTERPLAN.md)
+- [CONTRIBUTING.MD](CONTRIBUTING.md)
