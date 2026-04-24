@@ -1,5 +1,3 @@
-<img width="954" height="346" alt="bitmap" src="https://github.com/user-attachments/assets/8f699d15-4223-4269-b5f8-f2d472200d95" />
-
 # solstice os
 
 solstice is a source-based linux distro for people who actually want to understand what's running on their machine.
@@ -35,6 +33,12 @@ oh, and we care about performance. modern cpus, modern kernels, optimized builds
 
 solstice is in development. we're starting for real in june 2026, aiming for an alpha in september. we're learning as we build this thing. if you want to jump in and learn alongside us, we're absolutely down for that.
 
+**current status (april 2026):**
+- 1.2K+ Reddit views on r/linuxfromscratch
+- active Discord community with early collaborators
+- technical architecture finalized
+- community growing organically
+
 ## let's go
 
 want to build solstice?
@@ -48,9 +52,6 @@ want to build solstice?
 
 big thanks to:
 - **claude** — helped me think through the whole thing, the vision, the architecture, all of it
+- **NEOAPPS** — early collaborator, distro developer, architecture advisor
+- **ImAmir** — system architecture design contributions
 - **linux from scratch** — that book is insane, literally teaches you how to build a distro from nothing
-
-## other files
-- [ROADMAP.MD](ROADMAP.md)
-- [MASTERPLAN.MD](MASTERPLAN.md)
-- [CONTRIBUTING.MD](CONTRIBUTING.md)

@@ -11,9 +11,9 @@ here's what i locked in:
 - **display:** x11 by default (wayland's coming but not ready yet)
 - **shell:** bash (it's what people know)
 - **architecture:** x86-64 only for now (someone else can do arm later as an overlay)
-- **package manager:** bash-based to start
+- **package manager:** bash-based for Phase 1, rewrite in Go for Phase 2
 
-yeah, i could write the package manager in python or rust or whatever, but honestly? bash is simpler, lighter, and i understand every line of it.
+yeah, i could write the package manager in python or rust or whatever, but honestly? bash is simpler, lighter, and i understand every line of it. Phase 1 is about getting bootstrap working. Phase 2, when it gets complex, we'll switch to Go for better structure and fewer dependencies.
 
 ## how the package manager actually works
 
@@ -29,6 +29,8 @@ solpm list-overlays                  # see what repos you've got
 ```
 
 if two overlays have the same package, you get to pick which version you want. simple as that.
+
+**per-package options:** each recipe has its own options (menuconfig, no_modules, no_headers, etc). when you install a package, you pick which options you want OR just use the defaults. this is way simpler than gentoo's global USE flag system — no need to understand a global config, each package is self-contained.
 
 ## how many packages am i actually maintaining?
 
@@ -88,4 +90,6 @@ if that happens, we're golden.
 ## shoutouts
 
 - **claude** — literally helped me design all this, thought through the architecture, the overlay system, everything
+- **NEOAPPS** — early collaborator, distro developer, helped with solpm architecture decisions
+- **ImAmir** — system architecture design contributions, constrained interface ideas
 - **linux from scratch** — the bootstrap knowledge came straight from there, super valuable
