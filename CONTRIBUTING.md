@@ -99,5 +99,4 @@ that's it. build cool overlays, contribute when you feel like it, hang out in th
 
 - **claude** — helped design the whole community overlay system so it actually works
 - **NEOAPPS** — early collaborator, distro developer, helping with package manager architecture
-- **ImAmir** — system architecture design contributions
 - **linux from scratch** — the inspiration for how we approach bootstrapping
