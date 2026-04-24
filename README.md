@@ -1,4 +1,4 @@
-<img width="954" height="346" alt="bitmap" src="https://github.com/user-attachments/assets/dee9eecc-0e47-4f38-b7b7-871a6ece1e08" />
+<img width="954" height="346" alt="bitmap" src="https://github.com/user-attachments/assets/8f699d15-4223-4269-b5f8-f2d472200d95" />
 
 # solstice os
 
