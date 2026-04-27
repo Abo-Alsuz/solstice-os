@@ -1,3 +1,6 @@
+<img width="1492" height="592" alt="solstice2" src="https://github.com/user-attachments/assets/ed9e5db4-b0d7-45de-8a68-d21572f8fd34" />
+
+
 # solstice os
 
 solstice is a source-based linux distro for people who actually want to understand what's running on their machine.
