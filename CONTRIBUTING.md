@@ -43,30 +43,6 @@ solpm add-overlay https://github.com/yourname/your-overlay
 
 people can now use your overlay. that's it. you're done.
 
-## how to write recipes
-
-see [RECIPE_SPEC.md](docs/RECIPE_SPEC.md) for the detailed spec and examples. but basically it's just bash scripts that compile and install packages.
-
-## installing solstice with overlays
-
-when someone's installing solstice, they can just do:
-
-```bash
-solstice-install --enable-recommended
-```
-
-this automatically adds the recommended overlays:
-- **solstice-gaming** — proton, wine, games
-- **solstice-nvidia** — nvidia driver recipes
-- **solstice-dev** — dev tools, languages
-- **solstice-multimedia** — ffmpeg, media stuff
-
-or they can add overlays manually anytime:
-
-```bash
-solpm add-overlay https://github.com/user/my-overlay
-```
-
 ## annual awards
 
 every year we do this thing where the community votes on the best overlays. winners get:
